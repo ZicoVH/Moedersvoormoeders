@@ -1,0 +1,343 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Use Google fonts - Choose a nice color scheme - Use correct images in the appropriate file format
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #eee;
+    color: darkblue;
+    font-size: 1rem;
+}
+
+#fonttext {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+
+#quote {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+#quote2 {
+    font-size: 1rem;
+}
+
+.container {
+    padding-top: 3rem;
+}
+
+.copyright {
+    padding-top: 0;
+}
+
+nav li {
+    font-family: 'Archivo', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+
+.footerinfo {
+    font-size: 15px;
+
+}
+
+.footertext {
+    padding-top: 0px;
+}
+
+.headernav {
+    margin-top: -30px;
+}
+
+.headpic {
+    margin-top: 70px;
+}
+
+#headingpicture {
+    display: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(50% 90%, 100% 100%, 100% 0, 0 0, 0 100%);
+    padding: 12rem;
+}
+
+
+#midpicture {
+    background-image: url(../images/yannis-h-uaPaEM7MiQQ-unsplash2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(50% 100%, 100% 100%, 100% 0, 0 0, 0 100%);
+    padding: 8rem;
+}
+
+
+#welkompicture {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 39% 100%, 50% 75%, 0% 75%);
+    /*    clip-path: polygon(5% 5%, 97% 5%, 100% 75%, 75% 75%, 39% 100%, 50% 75%, 0% 75%);*/
+}
+
+
+dh {
+    font-weight: bold;
+}
+
+
+.link,
+#telfooter,
+#mailfooter {
+    color: white;
+    text-decoration: underline;
+}
+
+.link:hover,
+#telfooter:hover,
+#mailfooter:hover {
+    color: antiquewhite;
+}
+
+.mail:hover {
+    text-decoration: underline;
+}
+
+
+.picturehover:hover {
+    opacity: 0.9;
+    transform: rotate(-1deg);
+    transition: 1s;
+    border-radius: 2%;
+}
+
+.picturehover2:hover {
+    opacity: 0.9;
+    transform: rotate(-0.5deg);
+    transition: 1s;
+    border-radius: 2%;
+}
+
+.picturehover3:hover {
+    opacity: 0.9;
+    transform: rotate(0.5deg);
+    transition: 1s;
+    border-radius: 2%;
+}
+
+.picturehover4:hover {
+    opacity: 0.9;
+    transform: rotate(1deg);
+    transition: 1s;
+    border-radius: 2%;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+#pictures {
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+#dienstpic {
+    margin-top: 50px;
+}
+
+#shampoopic {
+    margin-top: 20px;
+}
+
+#voedingpic {
+    margin-top: 60px;
+}
+
+.displayN,
+#pictures,
+#FBbig,
+#indexmidpicture {
+    display: none;
+}
+
+#FBsmall {
+    display: block
+}
+
+
+.hoverlink:hover {
+    text-decoration: underline;
+    /*    opacity: 0.7;*/
+}
+
+#indexmidpicture {
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 50% 9%, 0 0);
+}
+
+.logo {
+    margin-top: -50px;
+    margin-left: 50px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -70px;
+
+}
+
+.headerlogo {
+    margin-top: 10px;
+}
+
+#entrance {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-top: 5rem;
+}
+
+#fransentrance,
+#engelsentrance {
+    margin-top: 0px;
+    width: 70%;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+#questionpicture {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 600px) {
+
+    #fbh4,
+    hr,
+    #mapsmall {
+        display: none;
+    }
+
+    #mapbig {
+        display: block;
+    }
+
+    #quote {
+        font-size: 3rem;
+    }
+
+    #quote2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 725px) {
+    #pictures {
+        display: block;
+    }
+
+    #FBsmall {
+        display: none
+    }
+
+    #FBbig {
+        display: block;
+    }
+
+    #headingpicture,
+    #indexmidpicture {
+        display: block;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 1750px) {
+    .image-container {
+        position: relative;
+        width: 300px;
+        height: 550px;
+    }
+
+    .image-container .after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        color: #fff;
+    }
+
+    .after {
+        line-height: 550px;
+        text-align: center;
+    }
+
+
+    .after a {
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .after a:hover {
+        text-decoration: underline;
+    }
+
+    .image-container:hover .after {
+        display: block;
+    }
+
+    .displayN {
+        display: block;
+    }
+
+}
